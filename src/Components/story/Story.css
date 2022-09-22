@@ -25,8 +25,8 @@
     border: 0.125rem solid rgb(253, 73, 41);
 } 
 .story > p {
-    font-size: 0.57rem;
-    width: 10ch;
+    font-size: 0.63rem;
+    min-width: 10ch;
     font-weight: 600;
     color: hsl(0, 0%, 20%);
     text-align: center;
