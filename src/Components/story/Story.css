@@ -12,11 +12,11 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 4rem;
+    max-width: 5rem;
     margin-right: 0.67rem;
 }
 .story-img{
-    width: 3.5rem;
+    max-width: 3.5rem;
 }
 .story-img > img {
     width: 100%;
@@ -26,6 +26,7 @@
 } 
 .story > p {
     font-size: 0.57rem;
+    width: 10ch;
     font-weight: 600;
     color: hsl(0, 0%, 20%);
     text-align: center;
