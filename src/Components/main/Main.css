@@ -35,7 +35,7 @@
     border-radius: 50%;
 }
 .profile-dots .dots {
-    font-size: 1.125rem;
+    font-size: 1.35rem;
     font-weight: 700;
     color: hsl(0, 0%, 20%);
     padding-right: 1rem;
@@ -55,10 +55,10 @@
     align-items: center;
 }
 .icon {
-    max-width: 2.5rem;
+    max-width: 2.7rem;
 }
 .save-icon {
-    max-width: 1.9rem;
+    max-width: 2rem;
 }
 .icon > img{
     width: 100%;

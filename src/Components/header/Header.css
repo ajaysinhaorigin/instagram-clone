@@ -49,9 +49,8 @@
     align-items: center;
 }
 .header-icon {
-    max-width: 2.5rem;
+    max-width: 2.7rem;
     margin-right: 0.25rem;
-   
 }
 .header-icon > img{
     width: 100%;
