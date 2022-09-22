@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { dataContext } from "../../App";
-import data from "../data/data";
 import "./Story.css";
 
 function Story() {
@@ -15,7 +14,7 @@ function Story() {
               <div className="story-img">
                 <img src={story.profileImg} alt="error" />
               </div>
-              {story.id == 1 ? <p>Your Story</p> : <p>{story.userName}</p>}
+              {story.id === 1 ? <p>Your Story</p> : <p>{story.userName}</p>}
             </div>
           </React.Fragment>
         );

@@ -1,7 +1,7 @@
 .stories{
     display: flex;
     align-items: flex-start;
-    padding: 1rem 0.63rem;
+    padding: 1rem 0.7rem;
     background-color:#fff;
     border-radius: 0.52rem;
     border: 0.1rem solid hsl(0, 4%, 87%);
@@ -21,9 +21,9 @@
     border: 0.125rem solid rgb(253, 73, 41);
 } 
 .story > p {
-    font-size: 0.63rem;
+    font-size: 0.57rem;
     font-weight: 600;
-    color: hsl(0, 0%, 28%);
+    color: hsl(0, 0%, 20%);
     text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
