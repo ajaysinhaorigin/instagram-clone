@@ -58,7 +58,7 @@
     max-width: 2.5rem;
 }
 .save-icon {
-    max-width: 2rem;
+    max-width: 1.9rem;
 }
 .icon > img{
     width: 100%;
@@ -106,18 +106,19 @@
     padding: 0 0.8rem;
     margin-bottom: 0.2rem;
 }
-.about > .userName {
+.about > p {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 40%)
+}
+.about p > span {
     font-size: 1rem;
     font-weight: 700;
     color: hsl(0, 0%, 20%);
     padding-right: 0.4rem;
    
 }
-.about > p{
-    font-size: 0.9rem;
-    font-weight: 500;
-    color: hsl(0, 0%, 40%)
-}
+
 .comments{
     font-size: 0.8rem;
     font-weight: 500;

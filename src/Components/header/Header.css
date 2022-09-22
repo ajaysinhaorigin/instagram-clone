@@ -7,6 +7,13 @@
     margin: 0 auto;
     background-color: #fff;
 }
+.instagram-logo{
+    max-width: 6rem;
+    padding-top: 0.3rem;
+}
+.instagram-logo > img{
+    width: 100%;
+}
 .input {
     position: relative;
     display: none;
@@ -43,7 +50,7 @@
 }
 .header-icon {
     max-width: 2.5rem;
-    margin-right: 0.5rem;
+    margin-right: 0.25rem;
    
 }
 .header-icon > img{

@@ -1,31 +1,30 @@
 .stories{
     display: flex;
     align-items: flex-start;
-    padding: 1rem 0.8rem;
+    padding: 1rem 0.63rem;
     background-color:#fff;
     border-radius: 0.52rem;
     border: 0.1rem solid hsl(0, 4%, 87%);
-    margin: 5rem 0 1rem 0 ;
+    margin: 5rem 0 1rem 0;
 }
 .story {
     max-width: 5rem;
+    margin-right: 0.53rem;
 }
 .story-img{
-    max-width: 4rem;
-    margin-right:0.5rem;
+    max-width: 3.5rem;
 }
 .story-img > img {
     width: 100%;
     border-radius: 50%;
     padding: 0.125rem;
-    border: 0.130rem solid rgb(231, 58, 28);
+    border: 0.125rem solid rgb(253, 73, 41);
 } 
 .story > p {
-    font-size: 0.7rem;
+    font-size: 0.63rem;
     font-weight: 600;
     color: hsl(0, 0%, 28%);
     text-align: center;
     overflow: hidden;
     text-overflow: ellipsis;
-  
 }

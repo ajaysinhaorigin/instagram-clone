@@ -12,7 +12,7 @@ function Header() {
   return (
     <div className="header">
       <div className="instagram-logo">
-        <img src={instagramLogo} alt="error" width="100" />
+        <img src={instagramLogo} alt="error" />
       </div>
       <div className="input">
         <input className="input-field" type="text" placeholder="Search" />

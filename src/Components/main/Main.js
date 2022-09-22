@@ -72,8 +72,7 @@ function Main() {
                 </div>
               </div>
               <div className="about">
-                <p className="userName">{data.userName}</p>
-                <p>{data.about}</p>
+                <p><span className="username">{data.userName}</span> {data.about}</p>
               </div>
               <p className="comments">View all {data.comments} comments</p>
               <div className="add-comment">
