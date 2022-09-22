@@ -1,0 +1,152 @@
+.profile-component {
+    background-color: #fff;
+    border-radius: 0.52rem;
+    border: 0.1rem solid hsl(0, 4%, 87%);
+    padding: 0.7rem 0;
+    margin-bottom: 1rem;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 0.8rem;
+    padding-bottom: 0.6rem;
+}
+.profile-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.profile-header > .userName {
+    padding-left: 0.4rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 20%);
+}
+.profile-picture{
+    max-width: 2rem;
+    overflow: hidden;
+}
+.profile-picture > img{
+    display: block;
+    width:100%;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    border-radius: 50%;
+}
+.profile-dots .dots {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 20%);
+    padding-right: 1rem;
+}
+.profile-post > img{
+    display: block;
+    width: 100%;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.3rem;
+}
+.side-icons {
+    display: flex;
+    align-items: center;
+}
+.icon {
+    max-width: 2.5rem;
+}
+.save-icon {
+    max-width: 2rem;
+}
+.icon > img{
+    width: 100%;
+}
+.likes {
+    display: flex;
+    padding-left: 0.6rem;
+}
+.post-like {
+    display: flex;
+    align-items: center;
+    padding-right: 0.5rem;
+}
+.like{
+    max-width: 1.5rem;   
+}
+.like > img {
+    width: 100%;
+    border-radius: 50%;
+    border: 0.2rem solid #fff;
+}
+.avatar-like {
+    z-index: 2;
+}
+.anne-like{
+    margin-left: -0.5rem;
+    z-index: 1;
+}
+.jonathan-like{
+    margin-left: -0.5rem;
+}
+.post-like-by > p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 40%)
+}
+.ajay-like{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 20%)
+}
+.about{
+    display: flex;
+    align-items: baseline;
+    padding: 0 0.8rem;
+    margin-bottom: 0.2rem;
+}
+.about > .userName {
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 20%);
+    padding-right: 0.4rem;
+   
+}
+.about > p{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 40%)
+}
+.comments{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+    margin-left: 0.8rem;
+    margin-bottom: 0.3rem
+}
+.add-comment{
+    display: flex;
+    align-items: center;
+    margin-left: 0.8rem;
+}
+.add-comment > div{
+    max-width: 1.5rem;
+    margin-right: 0.5rem;
+}
+.add-comment > div > img {
+    width: 100%;
+}
+.add-comment > p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%)
+}
+.time{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+    margin-left: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+

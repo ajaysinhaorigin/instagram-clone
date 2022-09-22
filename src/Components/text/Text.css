@@ -1,0 +1,49 @@
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-profile-img{
+    max-width: 3.5rem;
+}
+.text-profile-img > img{
+    width: 100%;
+    border-radius: 50%;
+}
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+    align-items: flex-start;
+    justify-content: center;
+}
+.profile-text :first-child{
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: hsl(0, 0%, 28%)
+}
+.text > div {
+    display: flex;
+}
+.suggestions {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 42%);
+}
+.suggestions :last-child{
+    padding-right: 1.5rem;
+    color: hsl(0, 0%, 28%);
+}
+.text > p {
+    font: 1rem;
+    font-weight: 500;
+    color: rgb(38, 38, 226);
+    padding-right: 1.5rem;
+}

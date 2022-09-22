@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Poppins:wght@200;400;600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: whitesmoke;
+  font-family: 'Poppins',sans-serif;
+}
+.App{
+  max-width: 30em;
+  margin: 0 auto;
+  padding: 0 0.35rem ;
+}
+.header-component{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width:100%;
+  border-bottom:0.1rem solid hsl(0, 4%, 87%) ;
+  background-color: #fff;
+}
+.fotter{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.side-component{
+  display: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media only screen and (min-width:60em){
+  .App{
+    max-width:60em;
+    margin: 0 auto;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .fotter{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: flex-start;
+    grid-gap:1rem ;
+    justify-content: center;
   }
-  to {
-    transform: rotate(360deg);
+  .side-component{
+    display: inline-block;
+    padding: 2rem 3rem 1rem 1rem;
+    margin-top: 5rem;
   }
 }
