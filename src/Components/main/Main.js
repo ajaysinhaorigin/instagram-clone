@@ -9,7 +9,7 @@ import jonathanprof from "../../profile-picture/jonathan.jpg";
 function Main() {
   const [state, dispatch] = useContext(dataContext);
   return (
-    <>
+    <div className="posts">
       {state.data.map((data) => {
         return (
           <React.Fragment key={data.id}>
@@ -80,7 +80,7 @@ function Main() {
           </React.Fragment>
         );
       })}
-    </>
+    </div>
   );
 }
 
