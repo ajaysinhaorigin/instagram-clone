@@ -1,6 +1,5 @@
 import React from "react";
 import "./Header.css";
-// import instagramLogo from "../../instagram-logo/instagram-logo.png";
 import InstagramLogo from "../../customLogos/InstagramLogo";
 import SearchIcon from "../../customLogos/SearchIcon";
 import HomeIcon from "../../customLogos/HomeIcon";

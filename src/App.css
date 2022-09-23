@@ -12,8 +12,7 @@ body{
 .App{
   max-width: 30em;
   margin:0 auto;
-  padding: 0 auto;
-
+  padding: 0 0.37rem;
 }
 .header-component{
   position: fixed;
@@ -21,36 +20,27 @@ body{
   left: 0;
   z-index: 999;
   width:100%;
-  border-bottom:0.1rem solid hsl(0, 4%, 87%) ;
+  border-bottom:0.1rem solid hsl(0, 4%, 90%) ;
   background-color: #fff;
 }
-.fotter{
-  display: grid;
-  grid-template-columns: 1fr;
-}
-.main-component {
-    max-width: 30em;
-    padding: 0 0.37rem;
-}
 .side-component{
-  max-width: 30em;
   display: none;
 }
+
 @media only screen and (min-width:60em){
   .App{
     max-width:60em;
     margin: 0 auto;
   }
-  .fotter{
+  .main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 3fr 2fr;
     align-items: flex-start;
-    grid-gap:1rem ;
+    grid-gap:2rem ;
     justify-content: center;
   }
   .side-component{
     display: inline-block;
-    padding: 2rem 3rem 1rem 1rem;
-    margin-top: 5rem;
+    margin-top: 7rem;
   }
 }

@@ -1,7 +1,7 @@
 .profile-component {
     background-color: #fff;
-    border-radius: 0.52rem;
-    border: 0.1rem solid hsl(0, 4%, 87%);
+    border-radius: 0.2rem;
+    border: 0.1rem solid hsl(0, 4%, 90%);
     padding: 0.7rem 0;
     margin-bottom: 1rem;
     background-color: #fff;
@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: space-between;
     padding-left: 0.8rem;
-    padding-bottom: 0.6rem;
+    padding-bottom: 0.7rem;
 }
 .profile-header{
     display: flex;
@@ -34,6 +34,12 @@
     aspect-ratio: 1/1;
     object-fit: contain;
     border-radius: 50%;
+    border: 0.1rem solid rgb(253, 73, 41);
+}
+.profile-dots{
+    display: flex;
+    place-content: center;
+    justify-content: center;
 }
 .profile-dots .dots {
     font-size: 1.35rem;
@@ -66,12 +72,12 @@
 }
 .likes {
     display: flex;
-    padding-left: 0.6rem;
+    padding-left: 0.7rem;
 }
 .post-like {
     display: flex;
     align-items: center;
-    padding-right: 0.5rem;
+    padding-right: 0.4rem;
 }
 .like{
     max-width: 1.5rem;   
@@ -79,7 +85,7 @@
 .like > img {
     width: 100%;
     border-radius: 50%;
-    border: 0.2rem solid transparent;
+    border: 0.125rem solid transparent;
 }
 .avatar-like {
     z-index: 2;
@@ -119,7 +125,6 @@
     padding-right: 0.4rem;
    
 }
-
 .comments{
     font-size: 0.8rem;
     font-weight: 500;

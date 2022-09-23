@@ -38,12 +38,10 @@
     color: hsl(0, 0%, 42%);
 }
 .suggestions :last-child{
-    padding-right: 1.5rem;
     color: hsl(0, 0%, 28%);
 }
 .text > p {
     font: 1rem;
     font-weight: 500;
     color: rgb(38, 38, 226);
-    padding-right: 1.5rem;
 }

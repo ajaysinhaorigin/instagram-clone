@@ -43,7 +43,7 @@ function App() {
         <div className="header-component">
           <Header />
         </div>
-        <div className="fotter">
+        <div className="main">
           <div className="main-component">
             <Story />
             <Main />
@@ -56,5 +56,4 @@ function App() {
     </dataContext.Provider>
   );
 }
-
 export default App;
