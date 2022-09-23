@@ -30,19 +30,11 @@ function Main() {
               </div>
               <div className="icons">
                 <div className="side-icons">
-                  <div className="like-icon icon ">
-                    <img src={data.like} alt="error" />
-                  </div>
-                  <div className="comment-icon icon ">
-                    <img src={data.comment} alt="error" />
-                  </div>
-                  <div className="share-icon icon ">
-                    <img src={data.share} alt="error" />
-                  </div>
+                  <div className="like-icon icon ">{data.HeartIcon}</div>
+                  <div className="comment-icon icon ">{data.CommentIcon}</div>
+                  <div className="share-icon icon ">{data.ShareIcon}</div>
                 </div>
-                <div className="save-icon icon ">
-                  <img src={data.save} alt="error" />
-                </div>
+                <div className="save-icon icon ">{data.SaveIcon}</div>
               </div>
               <div className="likes">
                 <div className="post-like">
@@ -72,7 +64,9 @@ function Main() {
                 </div>
               </div>
               <div className="about">
-                <p><span className="username">{data.userName}</span> {data.about}</p>
+                <p>
+                  <span className="username">{data.userName}</span> {data.about}
+                </p>
               </div>
               <p className="comments">View all {data.comments} comments</p>
               <div className="add-comment">

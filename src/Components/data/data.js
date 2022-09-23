@@ -12,10 +12,10 @@ import avatarpost from "../../images/avatar-post.jpg";
 import annepost from "../../images/dog-post.jpg";
 import jonathanpost from "../../images/jonathan-post.jpg";
 
-import like from "../../icons/like.jpg";
-import comment from "../../icons/comment.jpg";
-import share from "../../icons/share.jpg";
-import save from "../../icons/save.png";
+import HeartIcon from "../../customLogos/HeartIcon";
+import CommentIcon from "../../customLogos/CommentIcon";
+import ShareIcon from "../../customLogos/ShareIcon";
+import SaveIcon from "../../customLogos/SaveIcon";
 
 const data = [
   {
@@ -23,10 +23,10 @@ const data = [
     profileImg: ajayprof,
     userName: "ajaysinhaorigin",
     image: ajaypost,
-    like: like,
-    comment: comment,
-    share: share,
-    save: save,
+    HeartIcon: <HeartIcon />,
+    CommentIcon: <CommentIcon />,
+    ShareIcon: <ShareIcon />,
+    SaveIcon: <SaveIcon />,
     about: "designed by me... #adobeillustrator",
     comments: 7,
     hours: 1,
@@ -37,10 +37,10 @@ const data = [
     profileImg: mohitprof,
     userName: "withmohitjoshi",
     image: mohitpost,
-    like: like,
-    comment: comment,
-    share: share,
-    save: save,
+    HeartIcon: <HeartIcon />,
+    CommentIcon: <CommentIcon />,
+    ShareIcon: <ShareIcon />,
+    SaveIcon: <SaveIcon />,
     about: "just live...",
     comments: 9,
     hours: 3,
@@ -51,10 +51,10 @@ const data = [
     profileImg: duaprof,
     userName: "dua",
     image: duapost,
-    like: like,
-    comment: comment,
-    share: share,
-    save: save,
+    HeartIcon: <HeartIcon />,
+    CommentIcon: <CommentIcon />,
+    ShareIcon: <ShareIcon />,
+    SaveIcon: <SaveIcon />,
     about: "simplicity is the style of legends",
     comments: 1729,
     hours: 11,
@@ -65,10 +65,10 @@ const data = [
     profileImg: avatarprof,
     userName: "avatar",
     image: avatarpost,
-    like: like,
-    comment: comment,
-    share: share,
-    save: save,
+    HeartIcon: <HeartIcon />,
+    CommentIcon: <CommentIcon />,
+    ShareIcon: <ShareIcon />,
+    SaveIcon: <SaveIcon />,
     about: "full of innocence,full of cuteness and full of purity of heart..",
     comments: 196,
     hours: 20,
@@ -79,10 +79,10 @@ const data = [
     profileImg: anneprof,
     userName: "anne",
     image: annepost,
-    like: like,
-    comment: comment,
-    share: share,
-    save: save,
+    HeartIcon: <HeartIcon />,
+    CommentIcon: <CommentIcon />,
+    ShareIcon: <ShareIcon />,
+    SaveIcon: <SaveIcon />,
     about: "meet my best Friend.",
     comments: 29,
     hours: 17,
@@ -93,10 +93,10 @@ const data = [
     profileImg: jonathanprof,
     userName: "jonathan",
     image: jonathanpost,
-    like: like,
-    comment: comment,
-    share: share,
-    save: save,
+    HeartIcon: <HeartIcon />,
+    CommentIcon: <CommentIcon />,
+    ShareIcon: <ShareIcon />,
+    SaveIcon: <SaveIcon />,
     about: "beautiful marble",
     comments: 119,
     hours: 9,

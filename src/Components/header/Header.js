@@ -1,37 +1,38 @@
 import React from "react";
 import "./Header.css";
-import instagramLogo from "../../instagram-logo/instagram-logo.png";
-import search from "../../icons/search.png";
-import home from "../../icons/home.jpg";
-import share from "../../icons/share.jpg";
-import post from "../../icons/post.jpg";
-import like from "../../icons/like.jpg";
+// import instagramLogo from "../../instagram-logo/instagram-logo.png";
+import InstagramLogo from "../../customLogos/InstagramLogo";
+import SearchIcon from "../../customLogos/SearchIcon";
+import HomeIcon from "../../customLogos/HomeIcon";
+import ShareIcon from "../../customLogos/ShareIcon";
+import PostIcon from "../../customLogos/PostIcon";
+import HeartIcon from "../../customLogos/HeartIcon";
 import profileImg from "../../profile-picture/ajay.png";
 
 function Header() {
   return (
     <div className="header">
       <div className="instagram-logo">
-        <img src={instagramLogo} alt="error" />
+        <InstagramLogo />
       </div>
       <div className="input">
         <input className="input-field" type="text" placeholder="Search" />
         <div className="search-icon">
-          <img src={search} alt="error" />
+          <SearchIcon />
         </div>
       </div>
       <div className="header-icons">
         <div className="header-home-icon header-icon">
-          <img src={home} alt="error" />
+          <HomeIcon />
         </div>
         <div className="header-chat-icon header-icon">
-          <img src={share} alt="error" />
+          <ShareIcon />
         </div>
         <div className="header-post-icon header-icon">
-          <img src={post} alt="error" />
+          <PostIcon />
         </div>
         <div className="header-like-icon header-icon">
-          <img src={like} alt="error" />
+          <HeartIcon />
         </div>
         <div className="header-home-profile">
           <img src={profileImg} alt="error" />
@@ -40,5 +41,4 @@ function Header() {
     </div>
   );
 }
-
 export default Header;
