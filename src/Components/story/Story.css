@@ -14,6 +14,7 @@
     align-items: center;
     justify-content: center;
     margin-right: 0.57rem;
+    max-width: 5rem;
 }
 .story-img{
     max-width: 4rem;
