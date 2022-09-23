@@ -3,12 +3,12 @@
     align-items: center;
     justify-content: space-between;
     max-width:30em;
-    padding: 0 1rem;
+    padding: 0.15rem 1rem;
     margin: 0 auto;
     background-color:#fff;
 }
 .instagram-logo {
-    width: 7rem;
+    width: 7.2rem;
     padding-top: 0.3rem;
 }
  .instagram-logo > InstagramLogo {
