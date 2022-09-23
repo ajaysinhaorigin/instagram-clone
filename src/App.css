@@ -30,7 +30,7 @@ body{
  .main {
    display: grid;
    grid-template-columns: 1fr;
-   place-content: center;
+   align-items: center;
    margin-top: 5rem;
  }
 .side-component{
