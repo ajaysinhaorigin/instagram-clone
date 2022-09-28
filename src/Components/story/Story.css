@@ -16,7 +16,7 @@
     margin-right: 0.5em;
 }
 .story-img{
-    max-width: 3.5rem;
+    max-width: 3.2rem;
 }
 .story-img > img {
     max-width: 100%;
@@ -25,8 +25,8 @@
     border: 0.125rem solid rgb(253, 73, 41);
 } 
 .story > p {
-    max-width: 7em;
-    font-size: 0.61em;
+    max-width: 6em;
+    font-size: 0.57em;
     font-weight: 600;
     color: hsl(0, 0%, 20%);
     text-align: center;

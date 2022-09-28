@@ -2,14 +2,14 @@
     display: flex; 
     align-items: center;
     justify-content: space-between;
-    padding: 0.25rem 1rem;
+    padding: 0.2rem 1rem;
     margin: 0 auto;
     background-color:#fff;
 }
 .instagram-logo {
     display: flex;
     place-content: center;
-    width: 7.3rem;
+    width: 7rem;
 }
  .instagram-logo > InstagramLogo {
      max-width: 100%;
@@ -49,14 +49,14 @@
     align-items: center;
 }
 .header-icon {
-    width: 2.6rem;
+    width: 2.3rem;
     margin-right: 0.25rem;
 }
 .header-icon > img{
     max-width: 100%;
 }
 .header-home-profile {
-    width: 1.8rem;
+    width: 1.5rem;
 }
 .header-home-profile > img {
     width: 100%;
